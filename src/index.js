@@ -10,7 +10,7 @@ var require_src = __commonJS({
   "src/index.ts"(exports, module) {
     var prettierConfig = {
       $schema: "http://json.schemastore.org/prettierrc",
-      endOfLine: "lf",
+      endOfLine: "auto",
       printWidth: 150,
       quoteProps: "as-needed",
       semi: true,
