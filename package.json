@@ -1,0 +1,21 @@
+{
+  "name": "@doubleatostring/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier config.",
+  "main": "src/index.js",
+  "exports": {
+    "import": "./src/index.js",
+    "require": "./src/index.js"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "prettier": "^2.8.2"
+  },
+  "engines": {
+    "node": ">=v16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
